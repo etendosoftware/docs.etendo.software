@@ -15,7 +15,7 @@ This page explains how to configure and export dynamic applications in Etendo Cl
 
 As `System Administrator` role, in the **Dynamic App** window, specify the paths and versions for each subapplication. These settings determine how subapplications are displayed when users log into Etendo Mobile.
 
-![](../../../../assets/developer-guide/etendo-mobile/tutorials/create-new-subapplication/dynamic-app-creation.png)
+![](../../../../assets/developer-guide/etendo-classic/bundles/platform/dynamic-app/dynamic-app.png)
 
 Fields to note:
 
@@ -34,3 +34,4 @@ Fields to note:
 - **Default**: This check defines that this version is productive.
 - **Is Development**: This check defines that this version is in development and can be deployed locally.
 - **Active**: To select if this application version is active or not.
+- **Receive External Files** Identifies sub-applications that allow receiving shared files from external applications and are capable of handling them.

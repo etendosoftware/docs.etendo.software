@@ -584,36 +584,13 @@ In addition, it is necessary to add the navigation configuration in the `app.tsx
 
 ## Receiving Shared Files from Etendo Mobile
 
-In this section, we will explain how to receive external files from another application into **Etendo Mobile** using a new subapplication called **Documents Manager Subapp**.
+In this section, we will explain how to receive external files from another application into **Etendo Mobile** using as example new subapplication called **Documents Manager Subapp**.
 
 !!! warning "Important"
-    Ensure that the **Is Receive Files** checkbox is set to `true` in the **Dynamic App** window. This is crucial for the subapplication to appear as an option when sharing external files.
-    ![configuration-docsmanager.png](../../../assets/developer-guide/etendo-mobile/tutorials/create-new-subapplication/shared_files_configuration.png)
-
+    Ensure that the **Receive External Files** checkbox is set to `true` in the **Dynamic App** window. This is crucial for the subapplication to appear as an option when sharing external files.
+    ![configuration-docsmanager.png](../../../assets/developer-guide/etendo-classic/bundles/platform/dynamic-app/dynamic-app.png)
+    
 The `sharedFiles` parameter is passed to the subapplication and used to process the received files. Below is the important excerpt from `App.tsx` where `sharedFiles` is handled:
 
-```tsx title="App.tsx"
-const App: React.FC<AppProps> = ({
-  language,
-  navigationContainer,
-  dataUser,
-  sharedFiles, // <--- Highlighted sharedFiles parameter
-}) => {
-  return (
-    <Stack.Navigator initialRouteName="Home">
-      <Stack.Screen name="Home" options={{ headerShown: false }}>
-        {props => (
-          <Home
-            {...props}
-            navigationContainer={navigationContainer}
-            dataUser={dataUser}
-            sharedFiles={sharedFiles} // <--- Passes sharedFiles to Home screen
-          />
-        )}
-      </Stack.Screen>
-    </Stack.Navigator>
-  );
-};
-```
+Attached is the source code of the example application and the explanation of how to implement the file sharing functionality in your own sub-application. For more information visit [Documents Manager Subapp](https://github.com/etendosoftware/com.etendoerp.subapp.docsmanager){target="_blank"} repository.
 
-For an in-depth explanation of how the `sharedFiles` are processed within the subapplication, refer to the [Documents Manager Subapp Page](/developer-guide/etendo-mobile/subapps/docsmanager/).
