@@ -258,11 +258,10 @@ nav:
             - Modelo 390: user-guide/etendo-classic/optional-features/bundles/spain-localization/modelo-390.md
             - SII para IVA: user-guide/etendo-classic/optional-features/bundles/spain-localization/sii-para-iva.md
             - TicketBai y Batuz: user-guide/etendo-classic/optional-features/bundles/spain-localization/ticketbai-batuz.md
-          - Etendo BI Bundle: 
+          - Etendo BI Extensions Bundle: 
             - Overview: user-guide/etendo-classic/optional-features/bundles/etendobi-extensions/overview.md
             - Etendo BI Inclusion/Exclusion Module Configuration: user-guide/etendo-classic/optional-features/bundles/etendobi-extensions/inclusion-exclusion-configuration.md
-            - Etendo BI Connector Module: user-guide/etendo-classic/optional-features/bundles/etendobi-extensions/etendo-bi-connector.md
-          - Procurement Extensions: 
+          - Procurement Extensions Bundle: 
             - Overview: user-guide/etendo-classic/optional-features/bundles/procurement-extensions/overview.md
             - Purchase Invoice Validation: user-guide/etendo-classic/optional-features/bundles/procurement-extensions/purchase-invoice-validation.md
         - Supported Modules:
@@ -497,7 +496,7 @@ nav:
         - Financial Extensions Bundle: 
           - Overview: developer-guide/etendo-classic/bundles/financial-extensions-bundle/overview.md
           - Bank Integration PSD2: developer-guide/etendo-classic/bundles/financial-extensions-bundle/psd2-integration.md
-        - Etendo BI Bundle: developer-guide/etendo-classic/bundles/etendo-bi-bundle.md
+        - Etendo BI Extensions Bundle: developer-guide/etendo-classic/bundles/etendo-bi-extensions.md
     - Etendo RX:
       - ✨ Getting Started: developer-guide/etendo-rx/getting-started.md 
       - Concepts: 
@@ -572,7 +571,7 @@ nav:
           - Financial Extensions Bundle: whats-new/release-notes/etendo-classic/bundles/financial-extensions/release-notes.md
           - Spanish Localization Bundle: whats-new/release-notes/etendo-classic/bundles/localization-spain-extensions/release-notes.md
           - Procurement Extensions Bundle: whats-new/release-notes/etendo-classic/bundles/procurement-extensions/release-notes.md
-          - Etendo BI Bundle: whats-new/release-notes/etendo-classic/bundles/etendobi-extensions/release-notes.md
+          - Etendo BI Extensions Bundle: whats-new/release-notes/etendo-classic/bundles/etendobi-extensions/release-notes.md
         - Translation Bundles:
           - Essentials Extensions Bundle ES: whats-new/release-notes/etendo-classic/translation-bundles/essentials-extensions-es_es/release-notes.md
           - Platform Extensions Bundle ES: whats-new/release-notes/etendo-classic/translation-bundles/platform-extensions-es_es/release-notes.md
@@ -581,7 +580,7 @@ nav:
           - Sales Extensions Bundle ES: whats-new/release-notes/etendo-classic/translation-bundles/sales-extensions-es_es/release-notes.md
           - Financial Extensions Bundle ES: whats-new/release-notes/etendo-classic/translation-bundles/financial-extensions-es_es/release-notes.md
           - Procurement Extensions Bundle ES: whats-new/release-notes/etendo-classic/translation-bundles/procurement-extensions-es_es/release-notes.md
-          - Etendo BI Bundle ES: whats-new/release-notes/etendo-classic/translation-bundles/etendobi-extensions-es_es/release-notes.md
+          - Etendo BI Extensions Bundle ES: whats-new/release-notes/etendo-classic/translation-bundles/etendobi-extensions-es_es/release-notes.md
         - ISO image: whats-new/release-notes/etendo-classic/iso.md
         - Known Issues: whats-new/release-notes/etendo-classic/known-issues.md
       - Etendo Mobile:

@@ -1,6 +1,5 @@
 ---
-hide:
-    - navigation
+
 ---
 
 # Etendo BI Inclusion/Exclusion Configuration
