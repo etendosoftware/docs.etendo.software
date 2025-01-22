@@ -22,4 +22,5 @@ Here you can find a list of the all the available tools in the Copilot bundle.
 - [Test Run Tool](../available-tools/test-run-tool.md)
 - [Uncompress Tool](../available-tools/uncompress-tool.md)
 - [Write File Tool](../available-tools/write-file-tool.md)
+- [XLS Tool](../available-tools/xls-tool.md)
 - [XML Translation Tool](../available-tools/xml-translation-tool.md)

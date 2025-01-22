@@ -1,4 +1,5 @@
 ---
+title: Etendo Copilot
 tags: 
  - Etendo Copilot
  - AI Integration
@@ -40,7 +41,11 @@ In turn, it is possible to configure assistant managers, able to delegate a spec
 
 ## Tools
 
-Each tool represents a separate independent project, designed to excel at specific tasks. Whether it is code translation, text analysis, or data manipulation, our collection of tools work in harmony to deliver unparalleled support.
+Each tool represents a dedicated and self-contained project, meticulously designed to excel at specialized tasks. Whether it involves code translation, text analysis, or data manipulation, the diverse suite of tools operates in seamless coordination.  
+
+!!! info 
+    For a overview of the available tools and their technical details, please refer to the [Available Tools - Developer Guide](../../developer-guide/etendo-copilot/available-tools/overview.md).
+
 
 ##  Key Features
 
@@ -57,25 +62,36 @@ Each tool represents a separate independent project, designed to excel at specif
 
 - **Langchain Agent**: These assistants can perform specific tasks in natural language and provide contextualized responses, enabling the implementation of multiple AI models, the use of a proprietary vector database and internal memory management.
 - **Multi-Model Assistant** This type of assistant can be used with multi-vendor models such as *Anthropic* and *Gemini*, in addition to existing *OpenAI* models.
+- **Attach Files** Etendo Copilot allows users to attach one or multiple files for assistants.
 
 ## Copilot Interface
-
-In the Etendo Classic navigation bar, you'll find a Copilot icon that leads you to the chat pop-up.
+---
 
 ![Copilot Navbar](../../assets/user-guide/etendo-copilot/getting-started/copilot-navbar.png)
 
+In the Etendo Classic navigation bar, you'll find a Copilot icon that leads you to the chat pop-up.
+
 Here, you can select an Assistant and engage in a conversation with it. Copilot facilitates communication with `Langchain Agent`, `Multi-Model Assistant`, `LangGraph` and `Open AI Assistant` types, for more information visit [Assistant Windows](../etendo-copilot/setup-and-usage.md#assistant-window) documentation.
 
-### Visualization Mode
-
+### Attach Files
 ---
 
+![Attach-Files](../../assets/user-guide/etendo-copilot/getting-started/attach-files.png){align=right  width="300"}
+
+Etendo Copilot allows users to attach one or multiple files for assistants to process. This feature supports any file format, enabling flexibility in use cases. However, the ability to interpret and process these files depends on the specific assistant configuration, the defined tools, and the underlying model used.
+
+This functionality ensures that users can seamlessly incorporate external data into their workflows, whether it involves parsing documents, analyzing spreadsheets, or processing images. Assistants and tools can be tailored to address specific requirements based on the type of attached files, providing contextualized and intelligent responses.
+
+<br>
+<br>
+
+### Visualization Mode
+---
 <figure markdown>
-![](../../assets/user-guide/etendo-copilot/getting-started/regular-size-copilot.png){align=right width=200}
+![](../../assets/user-guide/etendo-copilot/getting-started/regular-size-copilot.png){align=right width=300}
 <br><br>
 Copilot, by default, can be used as a pop-up window. This is comfortable to use as an integrated assistant available in any window you are using.
 </figure>
-
 ---
 
 <figure markdown>
@@ -85,15 +101,12 @@ Select the fullscreen mode for a more comfortable use when having long conversat
 </figure>
 
 ---
-
 <figure markdown>
 ![](../../assets/user-guide/etendo-copilot/getting-started/minimized-copilot.png){align=right width=200}
 <br><br>
 It can also be minimized. In this case, the logo will be shown in the lower-right section of the screen.
 </figure>
-
 ---
-
 When asked something, Copilot informs the user about the assistants and tools used when processing each message.
 
 !!!note

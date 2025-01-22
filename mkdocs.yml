@@ -316,7 +316,7 @@ nav:
 #        - Code Review Process: developer-guide/etendo-classic/concepts/Code_Review_Process.md
 #        - Common Issues Tips and Tricks: developer-guide/etendo-classic/concepts/Common_Issues_Tips_and_Tricks.md
         - Constraints: developer-guide/etendo-classic/concepts/constraints.md
-        - Data Access Layer: developer-guide/etendo-classic/concepts/data_access_layer.md
+        - Data Access Layer: developer-guide/etendo-classic/concepts/data-access-layer.md
         - Data Model: developer-guide/etendo-classic/concepts/data-model.md
         - Datasets: developer-guide/etendo-classic/concepts/datasets.md
 #        - Datasources: developer-guide/etendo-classic/concepts/Datasources.md
@@ -532,6 +532,7 @@ nav:
         - Test Run Tool: developer-guide/etendo-copilot/available-tools/test-run-tool.md
         - Uncompress Tool: developer-guide/etendo-copilot/available-tools/uncompress-tool.md
         - Write File Tool: developer-guide/etendo-copilot/available-tools/write-file-tool.md
+        - XLS Tool: developer-guide/etendo-copilot/available-tools/xls-tool.md
         - XML Translation Tool: developer-guide/etendo-copilot/available-tools/xml-translation-tool.md
       - How to Guides: 
         - How to Create Copilot Tools: developer-guide/etendo-copilot/how-to-guides/how-to-create-copilot-tools.md
