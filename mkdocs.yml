@@ -83,17 +83,13 @@ markdown_extensions:
 
 plugins:
   - search:
-      indexing: full
-      prebuild_index: true
-      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-      lang:
-        - en
-      exact_phrase: true
-      index_all_content: true  
-      pipeline:
-        - stemmer
-        - stopWordFilter
-        - trimmer    
+    algolia:
+      app_id: YOUR_APP_ID
+      api_key: YOUR_API_KEY
+      index_name: YOUR_INDEX_NAME
+      placeholder: 'Search the docs'
+      autocomplete: true
+      debug: false
          
   - tags
   - glightbox
